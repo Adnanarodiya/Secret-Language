@@ -1,4 +1,3 @@
-const copy = document.getElementById("copy");
 const normalText = document.getElementById("normalText");
 const secretText = document.getElementById("secretText");
 
@@ -27,7 +26,7 @@ function convertToSecretText(normalTextValue) {
     const index = alphabet.indexOf(char);
 
     if (index !== -1) {
-      console.log((secretTextValue += secretAlphabet[index]));
+      secretTextValue += secretAlphabet[index];
     } else {
       secretTextValue += char;
     }

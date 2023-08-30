@@ -1,5 +1,5 @@
 const copy = document.getElementById("copy");
 const normalText = document.getElementById("normalText");
-const secretTeaxt = document.getElementById("secretTeaxt");
+const secretText = document.getElementById("secretTeaxt");
 
 console.log(normalText.value);
